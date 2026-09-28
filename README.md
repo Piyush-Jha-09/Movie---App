@@ -334,6 +334,8 @@ http://localhost:5173
 
 ## 👨‍💻 Author
 
+**Piyush Jha**
+
 Built as an internship project demonstrating full-stack development with React, TypeScript, Node.js, Express, and TMDB API integration.
 
 ---
