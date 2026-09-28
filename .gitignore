@@ -1,0 +1,54 @@
+# ========================
+# DEPENDENCIES
+# ========================
+node_modules/
+backend/node_modules/
+
+# ========================
+# BUILD OUTPUT
+# ========================
+dist/
+dist-ssr/
+build/
+backend/dist/
+
+# ========================
+# ENVIRONMENT & SECRETS
+# ========================
+.env
+.env.*
+backend/.env
+backend/.env.*
+# Allow example files — they contain only safe placeholders
+!.env.example
+!backend/.env.example
+
+# ========================
+# LOGS
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ========================
+# MISC LOCAL FILES
+# ========================
+*.local
+.DS_Store
+Thumbs.db
+
+# ========================
+# EDITOR & IDE
+# ========================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
